@@ -25,12 +25,6 @@ const products = [
     category: 'SEO Tools',
     image: '/img/semrush guru.png',
   },
-  //   {
-  //     id: 6,
-  //     name: 'KWFinder/Mangools',
-  //     category: 'SEO Tools',
-  //     image: '/img/kwfinder.png',
-  //   },
   {
     id: 7,
     name: 'Ubersuggest',
@@ -50,20 +44,6 @@ const products = [
     category: 'SEO Tools',
     image: '/img/buzzsumo.png',
   },
-  //   {
-  //     id: 11,
-  //     name: 'Answer The Public',
-  //     category: 'SEO Tools',
-  //     image: '/img/answer-the-public.png',
-  //   },
-  //   { id: 12, name: 'AIO SEO', category: 'SEO Tools', image: '/img/aio-seo.png' },
-  //   {
-  //     id: 13,
-  //     name: 'Long Tail Pro',
-  //     category: 'SEO Tools',
-  //     image: '/img/long-tail-pro.png',
-  //   },
-  //   { id: 14, name: 'HIX.AI', category: 'SEO Tools', image: '/img/hix-ai.png' },
 
   // AI Tools
   { id: 15, name: 'Jasper AI', category: 'AI Tools', image: '/img/jasper.png' },
@@ -80,68 +60,18 @@ const products = [
     category: 'AI Tools',
     image: '/img/writesonic.png',
   },
-  //   {
-  //     id: 19,
-  //     name: 'Claude AI',
-  //     category: 'AI Tools',
-  //     image: '/img/claude-ai.png',
-  //   },
   {
     id: 20,
     name: 'QuillBot',
     category: 'AI Tools',
     image: '/img/quillbot.png',
   },
-  //   { id: 21, name: 'Rytr AI', category: 'AI Tools', image: '/img/rytr-ai.png' },
-  //   {
-  //     id: 22,
-  //     name: 'Luvvoice AI',
-  //     category: 'AI Tools',
-  //     image: '/img/luvvoice-ai.png',
-  //   },
-  //   {
-  //     id: 23,
-  //     name: 'Eleven Labs',
-  //     category: 'AI Tools',
-  //     image: '/img/eleven-labs.png',
-  //   },
   {
     id: 24,
     name: 'BypassGpt',
     category: 'AI Tools',
     image: '/img/bypassgpt.png',
   },
-  //   {
-  //     id: 25,
-  //     name: 'HumanPal',
-  //     category: 'AI Tools',
-  //     image: '/img/humanpal.png',
-  //   },
-  //   {
-  //     id: 26,
-  //     name: 'Steve AI',
-  //     category: 'AI Tools',
-  //     image: '/img/steve-ai.png',
-  //   },
-  //   {
-  //     id: 27,
-  //     name: 'Submagic',
-  //     category: 'AI Tools',
-  //     image: '/img/submagic.png',
-  //   },
-  //   { id: 28, name: 'Lovo AI', category: 'AI Tools', image: '/img/lovo-ai.png' },
-  //   {
-  //     id: 29,
-  //     name: 'Blackbox AI',
-  //     category: 'AI Tools',
-  //     image: '/img/blackbox-ai.png',
-  //   },
-  //   {
-  //     id: 30,
-  //     name: 'AiStudios',
-  //     category: 'AI Tools',
-  //     image: '/img/aistudios.png',
-  //   },
   {
     id: 31,
     name: 'CopyMatic',
@@ -153,24 +83,6 @@ const products = [
     name: 'WordHero',
     category: 'AI Tools',
     image: '/img/wordhero.png',
-  },
-  //   {
-  //     id: 33,
-  //     name: 'Perplexity AI',
-  //     category: 'AI Tools',
-  //     image: '/img/perplexity-ai.png',
-  //   },
-  //   {
-  //     id: 34,
-  //     name: 'Prezi AI',
-  //     category: 'AI Tools',
-  //     image: '/img/prezi-ai.png',
-  //   },
-  {
-    id: 35,
-    name: 'Toons AI',
-    category: 'AI Tools',
-    image: '/img/toons-ai.png',
   },
 
   // Design Tools
@@ -199,30 +111,6 @@ const products = [
     category: 'Design Tools',
     image: '/img/crello.png',
   },
-  {
-    id: 41,
-    name: 'Design AI',
-    category: 'Design Tools',
-    image: '/img/design-ai.png',
-  },
-  {
-    id: 42,
-    name: 'Place It',
-    category: 'Design Tools',
-    image: '/img/place-it.png',
-  },
-  {
-    id: 43,
-    name: 'Sketch Genius',
-    category: 'Design Tools',
-    image: '/img/sketch-genius.png',
-  },
-  {
-    id: 44,
-    name: 'Leonardo AI',
-    category: 'Design Tools',
-    image: '/img/leonardo-ai.png',
-  },
 
   // Writing Tools
   {
@@ -230,12 +118,6 @@ const products = [
     name: 'Grammarly',
     category: 'Writing Tools',
     image: '/img/grammarly.png',
-  },
-  {
-    id: 46,
-    name: 'Hemingway Editor',
-    category: 'Writing Tools',
-    image: '/img/hemingway editor.png',
   },
   {
     id: 47,
@@ -250,46 +132,6 @@ const products = [
     image: '/img/writehuman.png',
   },
 
-  // Analytics Tools
-  {
-    id: 49,
-    name: 'Google Analytics',
-    category: 'Analytics Tools',
-    image: '/img/google analytics.png',
-  },
-  {
-    id: 50,
-    name: 'Hotjar',
-    category: 'Analytics Tools',
-    image: '/img/hotjar.png',
-  },
-  {
-    id: 51,
-    name: 'Similarweb',
-    category: 'Analytics Tools',
-    image: '/img/similarweb.png',
-  },
-  {
-    id: 52,
-    name: 'Amaze Trackerz',
-    category: 'Analytics Tools',
-    image: '/img/amaze-trackerz.png',
-  },
-
-  // Automation Tools
-  {
-    id: 53,
-    name: 'Zapier',
-    category: 'Automation Tools',
-    image: '/img/zapier.png',
-  },
-  {
-    id: 54,
-    name: 'IFTTT',
-    category: 'Automation Tools',
-    image: '/img/ifttt.png',
-  },
-
   // Video Tools
   {
     id: 55,
@@ -297,32 +139,8 @@ const products = [
     category: 'Video Tools',
     image: '/img/invideo.png',
   },
-  {
-    id: 56,
-    name: 'Pictory AI',
-    category: 'Video Tools',
-    image: '/img/pictory-ai.png',
-  },
-  //   {
-  //     id: 57,
-  //     name: 'Steve AI',
-  //     category: 'Video Tools',
-  //     image: '/img/steve-ai.png',
-  //   },
-  {
-    id: 58,
-    name: 'Powtoon',
-    category: 'Video Tools',
-    image: '/img/powtoon.png',
-  },
 
   // E-learning Platforms
-  {
-    id: 59,
-    name: 'Skillshare',
-    category: 'E-learning',
-    image: '/img/skillshare.png',
-  },
   { id: 60, name: 'Udemy', category: 'E-learning', image: '/img/udemy.png' },
   {
     id: 61,
@@ -330,49 +148,13 @@ const products = [
     category: 'E-learning',
     image: '/img/coursera.png',
   },
-  {
-    id: 62,
-    name: 'LinkedIn Learning',
-    category: 'E-learning',
-    image: '/img/linkedin-learning.png',
-  },
 
   // Miscellaneous Tools
-  {
-    id: 63,
-    name: 'Envato Elements',
-    category: 'Miscellaneous',
-    image: '/img/envato-elements.png',
-  },
   {
     id: 64,
     name: 'Storyblocks',
     category: 'Miscellaneous',
     image: '/img/storyblocks.png',
-  },
-  {
-    id: 65,
-    name: 'Epidemic Sound',
-    category: 'Miscellaneous',
-    image: '/img/epidemic-sound.png',
-  },
-  {
-    id: 66,
-    name: 'Audio Stock',
-    category: 'Miscellaneous',
-    image: '/img/audio-stock.png',
-  },
-  {
-    id: 67,
-    name: 'Viral Launch',
-    category: 'Miscellaneous',
-    image: '/img/viral-launch.png',
-  },
-  {
-    id: 68,
-    name: 'Design Beast App',
-    category: 'Miscellaneous',
-    image: '/img/design-beast.png',
   },
   {
     id: 69,
@@ -387,12 +169,6 @@ const products = [
     image: '/img/dichvusocks.png',
   },
   {
-    id: 71,
-    name: 'Surfshark VPN',
-    category: 'Miscellaneous',
-    image: '/img/surfshark-vpn.png',
-  },
-  {
     id: 72,
     name: 'Blinkist',
     category: 'Miscellaneous',
@@ -404,26 +180,8 @@ const products = [
     category: 'Miscellaneous',
     image: '/img/photoroom.png',
   },
-  { id: 74, name: 'Icon8', category: 'Miscellaneous', image: '/img/icon8.png' },
-  {
-    id: 75,
-    name: 'Place It',
-    category: 'Miscellaneous',
-    image: '/img/place-it.png',
-  },
-  {
-    id: 76,
-    name: 'RivalFlow AI',
-    category: 'Miscellaneous',
-    image: '/img/rivalflow-ai.png',
-  },
-  {
-    id: 77,
-    name: 'Sell the Trend',
-    category: 'Miscellaneous',
-    image: '/img/sell-the-trend.png',
-  },
 ];
+
 // update path as needed
 
 const categories = [
