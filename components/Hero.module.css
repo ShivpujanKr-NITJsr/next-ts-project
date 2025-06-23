@@ -1,0 +1,100 @@
+.heroSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6rem 0rem 0rem 3rem;
+  /* min-height: 100vh; */
+  height: 71.3vh; /* Set to 71.3vh */
+  /* height: 650px; */
+  /* background-color: var(--bg-dark); */
+  /* color: var(--text-light); */
+}
+
+.left {
+  /* max-width: 750px; */
+  width: 40%;
+  text-align: center;
+}
+
+.right {
+  width: 60%; /* Ensure the right side takes up half the screen */
+  height: 71.3vh; /* Ensure it has a height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  position: relative; /* This will allow positioning for child elements */
+  /* background-color: var(--bg-dark); */
+}
+
+.statusBadge {
+  background-color: #1e1e2f;
+  color: #00ff94;
+  padding: 0.4rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+  margin-bottom: 1.2rem;
+  display: inline-block;
+}
+
+.heroHeading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  max-width: 740px;
+  text-align: center;
+}
+
+.heroText {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  max-width: 740px;
+  text-align: center;
+}
+
+.buttonGroup {
+  gap: 1rem;
+  text-align: center;
+}
+
+.buttonPrimary {
+  background-color: var(--button-bg);
+  color: black;
+  padding: 0.8rem 1.8rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonSecondary {
+  background-color: transparent;
+  color: var(--text-light);
+  padding: 0.8rem 1.8rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: 1px solid var(--button-border);
+  cursor: pointer;
+}
+
+.heroImage {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes glowFadeIn {
+  0% {
+    background-position: 50% -30%;
+    opacity: 0;
+  }
+  100% {
+    background-position: 50% 0%;
+    opacity: 1;
+  }
+}
+
+.animatedGlow {
+  animation: glowFadeIn 4s ease-out forwards;
+}

@@ -1,0 +1,11 @@
+
+
+
+
+@media (width<768px){
+
+    .responsivecard {
+        margin: auto;
+        margin-bottom: 16px;
+    }
+}
