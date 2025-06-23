@@ -68,8 +68,28 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.6 }}
         >
-          <button className={styles.buttonPrimary}>Pricing</button>
-          <button className={styles.buttonSecondary}>Individual Tools</button>
+          <button
+            className={styles.buttonPrimary}
+            onClick={() => {
+              const el = document.getElementById('pricing');
+              if (el) {
+                el.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+          >
+            Pricing
+          </button>
+          <button
+            className={styles.buttonSecondary}
+            onClick={() => {
+              const el = document.getElementById('tools');
+              if (el) {
+                el.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
+          >
+            Individual Tools
+          </button>
         </motion.div>
       </motion.div>
 

@@ -282,7 +282,13 @@ export default function ToolsCategorized() {
                   aria-label={`Get access to ${product.name}`}
                   tabIndex={-1}
                 >
-                  Get Access
+                  <a
+                    href={'https://groupbuyseotools.store/tools/'}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Get Access
+                  </a>
                 </button>
               </li>
             ))}

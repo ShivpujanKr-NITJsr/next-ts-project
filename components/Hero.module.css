@@ -98,3 +98,40 @@
 .animatedGlow {
   animation: glowFadeIn 4s ease-out forwards;
 }
+
+@media (max-width: 1432px) {
+  .right {
+    display: none !important;
+  }
+
+  .left {
+    margin: 0 auto !important;
+    max-width: 720px; /* increased readable width */
+    width: 100%;
+    padding: 0 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heroHeading {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    word-break: break-word;
+  }
+
+  .heroText {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+  }
+
+  .buttonGroup {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+}

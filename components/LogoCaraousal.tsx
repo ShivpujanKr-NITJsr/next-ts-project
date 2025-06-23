@@ -15,15 +15,21 @@ const Slider = () => {
             key={i}
             className='flex flex-col items-center justify-center min-w-[150px] mx-8 shrink-0 cursor-pointer'
           >
-            <Image
-              // priority={true}
-              src={logo.src}
-              alt={logo.name}
-              width={140}
-              height={64}
-              className='grayscale-0 hover:opacity-100'
-            />
-            <span className='mt-2 text-sm text-gray-600'>{logo.name}</span>
+            <a
+              href={'https://groupbuyseotools.store/tools/'}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Image
+                // priority={true}
+                src={logo.src}
+                alt={logo.name}
+                width={140}
+                height={64}
+                className='grayscale-0 hover:opacity-100'
+              />
+              <span className='mt-2 text-sm text-gray-600'>{logo.name}</span>
+            </a>
           </div>
         ))}
       </div>

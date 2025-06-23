@@ -1,7 +1,5 @@
-// import Image from "next/image";
 'use client';
 import AnimatedSection from '@/components/AnimatedSection';
-// import { motion } from 'motion/react';
 
 import FAQ from '@/components/FAQ';
 import FloatingSupport from '@/components/FloatingSupport';
@@ -9,24 +7,15 @@ import Hero from '@/components/Hero';
 import HowItWorks from '@/components/HowItWorks';
 import KeyFeatures from '@/components/KeyFeatures';
 import LogoCarousel from '@/components/LogoCaraousal';
-// import MicroSlider from '@/components/MicroSlider';
-// import HeroV3 from '@/components/HeroV3';
-// import HeroTools3D from '@/components/HeroSectionV2';
-// import HeroV2 from '@/components/HeroV2';
-// import LeftPage from '@/components/LeftPage';
-// import HeroSection from '@/components/HeroSectionV2';
-// import { HeroSection } from '@/components/HeroSection';
-// import Navbar from '@/components/Navbar';
-// import NavbarV2 from '@/components/NavbarV2';
+
 import Pricing from '@/components/Pricing';
 import SeoToolsGrid from '@/components/SeoToolsGridGroupBuy';
-// import PricingCarousel from '@/components/PricingCaraousal';
-// import RightPage from '@/components/RightPage';
+
 import Testimonials from '@/components/Testimonialls';
-// import ToolList from '@/components/ToolList';
+
 import ToolsCategorized from '@/components/ToolsCategorized';
 import TrustpilotRating from '@/components/TrustPilotRating';
-// import { LampContainer } from '@/components/ui/Lamp';
+
 import WhyChoose from '@/components/WhyChooseUs';
 
 export default function Home() {

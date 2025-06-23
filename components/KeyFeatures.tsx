@@ -9,7 +9,7 @@ const features = [
       'All data is encrypted under our E2E policy, so even Groupbuyseotool can’t see your data from the backend.',
     icon: (
       <svg
-        className='w-5 h-5 text-white'
+        className='w-6 h-6 text-white'
         fill='none'
         stroke='currentColor'
         strokeWidth={2}
@@ -25,7 +25,7 @@ const features = [
       'Groupbuyseotools accepts Worldwide payments through Net Banking and PayPal gateways. Every payment is secured.',
     icon: (
       <svg
-        className='w-5 h-5 text-white'
+        className='w-6 h-6 text-white'
         fill='none'
         stroke='currentColor'
         strokeWidth={2}
@@ -38,10 +38,10 @@ const features = [
   {
     title: 'Single Click Access',
     description:
-      'Group Buy SEO tools Enable users to Access their Tools in one click without using extensions. For any accidents, Extensions are also provided.',
+      'Group Buy SEO tools enable users to access tools in one click without extensions. Extensions are also provided if needed.',
     icon: (
       <svg
-        className='w-5 h-5 text-white'
+        className='w-6 h-6 text-white'
         fill='none'
         stroke='currentColor'
         strokeWidth={2}
@@ -54,10 +54,10 @@ const features = [
   {
     title: 'Unmatched Support',
     description:
-      'Our dedicated customer support team is available 24/7. Whether you have a question about a tool or need technical assistance, we’re here to help you every step of the way.',
+      'Our customer support team is available 24/7 for questions or technical help, every step of the way.',
     icon: (
       <svg
-        className='w-5 h-5 text-white'
+        className='w-6 h-6 text-white'
         fill='none'
         stroke='currentColor'
         strokeWidth={2}
@@ -77,10 +77,10 @@ const fadeUp = {
 
 export default function KeyFeatures() {
   return (
-    <section className='py-24  text-white'>
-      <div className='max-w-7xl mx-auto px-6 sm:px-10 lg:px-16'>
+    <section className='py-24 bg-[#0a0a23] text-white'>
+      <div className='max-w-6xl mx-auto px-6'>
         <motion.h2
-          className='text-3xl md:text-4xl font-bold text-center mb-20'
+          className='text-4xl font-bold text-center mb-24'
           initial='hidden'
           whileInView='visible'
           viewport={{ once: true }}
@@ -91,10 +91,10 @@ export default function KeyFeatures() {
         </motion.h2>
 
         <div className='relative'>
-          {/* Vertical Line */}
-          <div className='hidden md:block absolute top-0 left-1/2 transform -translate-x-1/2 w-1 h-full bg-gray-700 z-0' />
+          {/* Mid Vertical Rod with Your Color */}
+          <div className='hidden md:block absolute top-0 left-1/2 transform -translate-x-1/2 w-[6px] h-full z-0 bg-blue-600 rounded-full shadow-[0_0_20px_2px_rgba(59,130,246,0.3)] animate-pulse' />
 
-          <div className='flex flex-col gap-24'>
+          <div className='flex flex-col gap-28'>
             {features.map((feature, index) => {
               const isRight = index % 2 !== 0;
 
@@ -107,21 +107,22 @@ export default function KeyFeatures() {
                   initial='hidden'
                   whileInView='visible'
                   viewport={{ once: true }}
-                  transition={{ duration: 0.6, delay: index * 0.2 }}
+                  transition={{ duration: 0.6, delay: index * 0.25 }}
                   variants={fadeUp}
                 >
-                  {/* Icon and Line */}
+                  {/* Dot and Icon Circle */}
                   <div className='absolute left-1/2 transform -translate-x-1/2 flex flex-col items-center z-20'>
-                    <div className='w-12 h-12 rounded-full bg-blue-600 border-4 border-gray-950 flex items-center justify-center shadow-lg'>
+                    <div className='w-14 h-14 rounded-full bg-blue-600 border-4 border-gray-950 flex items-center justify-center shadow-lg'>
                       {feature.icon}
                     </div>
-                    <div className='w-1 h-full bg-blue-600' />
                   </div>
 
-                  {/* Feature Card */}
+                  {/* Content Card */}
                   <div
-                    className={`md:w-[46%] p-6 sm:p-8 rounded-xl bg-[#141439] shadow-xl ${
-                      isRight ? 'md:ml-16' : 'md:mr-16'
+                    className={`md:w-[46%] mt-16 md:mt-0 p-6 sm:p-8 rounded-xl bg-[#141439] shadow-xl ${
+                      isRight
+                        ? 'md:ml-20 text-left'
+                        : 'md:mr-20 text-left md:text-right'
                     }`}
                   >
                     <h3 className='text-xl sm:text-2xl font-semibold mb-3 text-white'>
