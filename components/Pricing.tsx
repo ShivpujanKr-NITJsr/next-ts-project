@@ -112,7 +112,7 @@ export default function PricingPlans() {
                   ? '0 0 20px rgba(255, 106, 0, 0.6)'
                   : '0 0 10px rgba(142, 142, 255, 0.3)',
               }}
-              className={`relative ${
+              className={`relative mx-auto ${
                 styles.responsivecard
               } sm:w-[300px] max-w-[360px] w-full rounded-2xl border ${
                 plan.color
