@@ -98,8 +98,8 @@ export default function PricingPlans() {
       </h2>
 
       <div className='w-full px-4'>
-        <div className='max-w-7xl mx-auto grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] md:gap-6 xs:gap-4 justify-items-start'>
-          {plans.map((plan, idx) => (
+        <div className='max-w-[1300px] mx-auto px-4 sm:px-6 md:px-10 grid gap-6 grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] justify-center'>
+  {plans.map((plan, idx) => (
             <motion.div
               key={idx}
               initial={{ opacity: 0, y: 30 }}

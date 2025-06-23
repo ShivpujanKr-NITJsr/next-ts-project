@@ -216,13 +216,13 @@ export default function PricingCarousel() {
                 {/* new design */}
                 <div
                   key={realIndex + '0'}
-                  className={`w-full md:w-80 max-w-sm relative rounded-2xl border ${
+                  className={`w-[280px] relative rounded-2xl border ${
                     plan.color
                   } p-6 shadow-xl flex flex-col justify-between ${
                     plan.highlight
                       ? 'bg-white dark:bg-[#1e1e30]'
                       : 'bg-white/5 dark:bg-[#1e1e30]'
-                  } h-[450px] `}
+                  } h-[400px] `}
                 >
                   {plan.label && (
                     <span className='absolute -top-3 right-3 bg-red-500 text-white text-xs px-3 py-1 rounded-full shadow'>
@@ -230,7 +230,7 @@ export default function PricingCarousel() {
                     </span>
                   )}
                   <div>
-                    <h3 className='text-xl font-semibold mb-2 text-gray-800 dark:text-white'>
+                    <h3 className='text-xl font-semibold mb-1 text-gray-800 dark:text-white'>
                       {plan.title}
                     </h3>
                     <div className='text-3xl font-bold flex items-end gap-2'>
@@ -244,7 +244,7 @@ export default function PricingCarousel() {
                         /month
                       </span>
                     </div>
-                    <ul className='mt-6 space-y-3 text-sm text-gray-700 dark:text-gray-300'>
+                    <ul className='mt-6 space-y-2 text-sm text-gray-700 dark:text-gray-300'>
                       {plan.features.map((f, i) => (
                         <li key={i}>✅ {f}</li>
                       ))}
